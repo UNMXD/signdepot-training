@@ -8,6 +8,8 @@ Internal training site for the Sign Depot USA crew, published with GitHub Pages.
 - `installation.html` — the Installation category page, listing its trainings
 - `machines.html` — the Machines & Equipment category page (laminator + Colex trainings coming soon)
 - `safety-film.html` — 3M Safety & Security Film Installation (videos + checklist + the installer kit)
+- `machines/<slug>.html` — one page per machine (Colex, Summa, Flora, Epson, Canon, Laminator, Mounting Table, Bucket Truck, Ranger, NV200, F-150), each a living stub filled with videos/instructions over time; mirrored in Spanish under `es/machines/`
+- `ai.html` — the knowledge page for AI assistants (deliberately NOT in the nav; linked quietly from the home page footer). Operational know-how only — never add customer data, financials, or credentials to it.
 - `es/` — the full Spanish version of the site (same file names; every page links to its twin with the EN/ES toggle in the top bar)
 
 Every page has the same sticky top bar: click the logo to go home, use the nav links, flip EN/ES with the toggle, and use the blue Back button on category and training pages.

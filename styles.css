@@ -148,20 +148,40 @@ a.backbtn:hover { background: var(--orange); }
   .topnav a { font-size: 15px; }
 }
 
-/* Simple step cards (training pages): one step, one action, big checkbox */
-.progresswrap { margin: 6px 0 20px; }
-.progresstext { font-weight: 800; font-size: 18px; margin-bottom: 6px; color: var(--blue); }
-.progress { height: 14px; background: #e3e5ec; border-radius: 999px; overflow: hidden; }
+/* Step cards v2: big numbered circles (blue circle, white number).
+   Numbers come from a CSS counter, so adding or removing a step
+   renumbers the whole page by itself. A finished step turns orange
+   and the number swaps to a check mark. */
+.progresswrap { margin: 6px 0 22px; }
+.progresstext { font-weight: 800; font-size: 20px; margin-bottom: 8px; color: var(--blue); }
+.progress { height: 16px; background: #e3e5ec; border-radius: 999px; overflow: hidden; }
 .progress .bar { height: 100%; width: 0; background: var(--orange); transition: width .3s; }
+.steps { counter-reset: stepnum; }
 .step {
-  display: flex; gap: 14px; align-items: flex-start;
-  background: var(--card); border: 2px solid var(--line); border-radius: 14px;
-  padding: 18px; margin-bottom: 14px; cursor: pointer;
+  display: flex; gap: 16px; align-items: flex-start;
+  background: var(--card); border: 2px solid var(--line); border-radius: 16px;
+  padding: 20px; margin-bottom: 16px; cursor: pointer;
+  counter-increment: stepnum;
 }
-.step input.stepcheck { width: 30px; height: 30px; flex: none; margin-top: 2px; accent-color: var(--blue); }
-.step .steptitle { display: block; font-weight: 800; font-size: 20px; color: var(--blue); margin-bottom: 4px; }
+.step::before {
+  content: counter(stepnum);
+  flex: none; width: 64px; height: 64px; border-radius: 50%;
+  background: var(--blue); color: #fff;
+  font-size: 30px; font-weight: 800; line-height: 1;
+  display: flex; align-items: center; justify-content: center;
+}
+.step.done::before { content: "✓"; background: var(--orange); }
+.step > span { order: 2; flex: 1; min-width: 0; }
+.step input.stepcheck { order: 3; width: 36px; height: 36px; flex: none; margin-top: 4px; accent-color: var(--blue); }
+.step .steptitle { display: block; font-weight: 800; font-size: 22px; color: var(--blue); margin-bottom: 4px; }
 .step p { margin: 0 0 8px; font-size: 18px; }
 .step.done { border-color: #4a7c2f; background: #f2f8ec; }
+@media (max-width: 560px) {
+  .step { padding: 16px; gap: 12px; }
+  .step::before { width: 52px; height: 52px; font-size: 25px; }
+  .step input.stepcheck { width: 32px; height: 32px; }
+  .step .steptitle { font-size: 20px; }
+}
 .alldone { background: #eef7e6; border: 2px solid #4a7c2f; border-radius: 12px; padding: 16px 18px; font-size: 19px; font-weight: 700; }
 ul.plainlist { font-size: 18px; line-height: 1.6; padding-left: 22px; }
 ul.plainlist li { margin-bottom: 8px; }

@@ -1,0 +1,128 @@
+/* Sign Depot USA — Crew Training site styles
+   Brand colors sampled from the Sign Depot USA logo:
+   orange #F45501, blue #0A1D93. */
+:root {
+  --blue: #0A1D93;
+  --orange: #F45501;
+  --ink: #1c1e26;
+  --grey: #5a5e6a;
+  --line: #e3e5ec;
+  --bg: #f6f7fb;
+  --card: #ffffff;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.55;
+}
+a { color: var(--blue); }
+
+/* Header */
+.site-header {
+  background: #fff;
+  border-bottom: 4px solid var(--orange);
+}
+.site-header .wrap {
+  max-width: 1020px; margin: 0 auto; padding: 16px 20px;
+  display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+}
+.site-header img.logo { height: 54px; width: auto; display: block; }
+.site-header .site-name {
+  font-weight: 800; font-size: 20px; color: var(--blue); letter-spacing: .2px;
+}
+.site-header .site-name small {
+  display: block; font-weight: 600; font-size: 13px; color: var(--grey);
+  letter-spacing: 1.6px; text-transform: uppercase;
+}
+
+/* Hero band */
+.hero { background: var(--blue); color: #fff; }
+.hero .wrap { max-width: 1020px; margin: 0 auto; padding: 34px 20px 30px; }
+.hero h1 { margin: 0 0 6px; font-size: 34px; line-height: 1.15; }
+.hero p { margin: 0; font-size: 18px; color: #cfd6ff; max-width: 640px; }
+.hero .backlink { color: #ffb59a; font-weight: 700; text-decoration: none; font-size: 15px; }
+.hero .backlink:hover { text-decoration: underline; }
+
+/* Layout */
+main { max-width: 1020px; margin: 0 auto; padding: 28px 20px 60px; }
+h2.section {
+  font-size: 24px; color: var(--blue); margin: 36px 0 14px;
+  padding-bottom: 8px; border-bottom: 3px solid var(--orange);
+}
+p.lede { font-size: 18px; color: var(--grey); max-width: 720px; }
+
+/* Training cards (home page) */
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 18px; margin-top: 8px; }
+.card {
+  background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+  padding: 22px; text-decoration: none; color: var(--ink);
+  display: flex; flex-direction: column; gap: 8px;
+  box-shadow: 0 1px 3px rgba(10, 29, 147, .06);
+}
+.card:hover { border-color: var(--orange); }
+.card .tag {
+  align-self: flex-start; background: var(--orange); color: #fff;
+  font-size: 12px; font-weight: 800; letter-spacing: 1.2px;
+  padding: 4px 10px; border-radius: 999px; text-transform: uppercase;
+}
+.card h3 { margin: 2px 0 0; font-size: 21px; color: var(--blue); }
+.card p { margin: 0; color: var(--grey); font-size: 16px; }
+.card .go { margin-top: auto; font-weight: 800; color: var(--orange); }
+.card.soon { border-style: dashed; background: transparent; box-shadow: none; }
+.card.soon h3 { color: var(--grey); }
+
+/* Notice boxes */
+.note, .warn, .spec { border-radius: 12px; padding: 16px 18px; margin: 20px 0; font-size: 17px; }
+.note { background: #eef7e6; border: 2px solid #4a7c2f; }
+.warn { background: #fdeeee; border: 2px solid #b02a2a; }
+.spec { background: #fff8d6; border: 2px solid #8a6d00; font-weight: 600; }
+
+/* Video list */
+ol.playlist { list-style: none; counter-reset: vid; padding: 0; margin: 0; }
+ol.playlist > li {
+  counter-increment: vid; position: relative;
+  background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+  padding: 20px 20px 16px 76px; margin-bottom: 16px;
+  box-shadow: 0 1px 3px rgba(10, 29, 147, .06);
+}
+ol.playlist > li::before {
+  content: counter(vid); position: absolute; left: 20px; top: 20px;
+  width: 40px; height: 40px; border-radius: 50%;
+  background: var(--blue); color: #fff; font-weight: 800; font-size: 20px;
+  display: flex; align-items: center; justify-content: center;
+}
+ol.playlist h3 { margin: 2px 0 6px; font-size: 20px; color: var(--ink); }
+ol.playlist p { margin: 0 0 8px; font-size: 17px; }
+a.btn {
+  display: inline-block; background: var(--orange); color: #fff; text-decoration: none;
+  font-weight: 800; font-size: 17px; border-radius: 10px; padding: 12px 20px; margin: 6px 0 4px;
+}
+a.btn:hover { background: #d94800; }
+.url { font-size: 14px; word-break: break-all; color: var(--grey); margin: 2px 0 6px; }
+
+/* Checklist */
+.checkgroup { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 6px 22px 14px; margin-bottom: 16px; }
+.checkgroup h3 { color: var(--blue); font-size: 20px; margin: 16px 0 6px; }
+ul.check { list-style: none; padding: 0; margin: 0; }
+ul.check li { padding: 11px 0 11px 42px; position: relative; border-bottom: 1px solid var(--line); font-size: 17px; }
+ul.check li:last-child { border-bottom: none; }
+ul.check li::before { content: "☐"; position: absolute; left: 0; top: 6px; font-size: 28px; color: var(--blue); }
+.fields {
+  background: var(--card); border: 2px solid var(--blue); border-radius: 12px;
+  padding: 14px 18px; font-size: 18px; line-height: 2.1; margin: 18px 0;
+}
+ul.redflags { font-size: 17px; }
+ul.redflags li { margin-bottom: 12px; }
+
+/* Footer */
+.site-footer { background: var(--blue); color: #cfd6ff; }
+.site-footer .wrap { max-width: 1020px; margin: 0 auto; padding: 22px 20px; font-size: 15px; }
+.site-footer strong { color: #fff; }
+
+@media (max-width: 560px) {
+  .hero h1 { font-size: 27px; }
+  ol.playlist > li { padding-left: 20px; padding-top: 70px; }
+}

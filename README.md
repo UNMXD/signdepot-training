@@ -18,7 +18,7 @@ Every page has the same sticky top bar: click the logo to go home, use the nav l
 
 ## Adding a new training
 
-Structure is three levels: home page → category page → training page. Planned next sections: EVO & Sales Workflow (order entry with screenshots) and Managers (sensitive manager documents belong behind a real sign-in, e.g. a private Drive folder linked from the site — a password typed into a public static page is NOT real security).
+Structure is organized BY DEPARTMENT (Management, Sales, Design, Production, Installation): home page → department page → training page. Machines & Equipment (machines.html + machines/) is a section inside Production. Department pages: sales.html, design.html, production.html, installation.html (doubles as a department page), management.html — each with a Spanish twin in es/. Planned next sections: EVO & Sales Workflow (order entry with screenshots) and Managers (sensitive manager documents belong behind a real sign-in, e.g. a private Drive folder linked from the site — a password typed into a public static page is NOT real security).
 
 BILINGUAL RULE: every page exists in English (root) and Spanish (`es/`). When you add or change a page, update BOTH versions in the same commit, and keep the EN/ES toggle links pointing at the twin file.
 

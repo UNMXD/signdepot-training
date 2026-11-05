@@ -126,3 +126,24 @@ ul.redflags li { margin-bottom: 12px; }
   .hero h1 { font-size: 27px; }
   ol.playlist > li { padding-left: 20px; padding-top: 70px; }
 }
+
+/* Top navigation bar (sticky) + language toggle + back button */
+.site-header { position: sticky; top: 0; z-index: 50; box-shadow: 0 2px 8px rgba(10,29,147,.08); }
+.site-header a.brand { display: flex; align-items: center; gap: 18px; text-decoration: none; }
+.topnav { margin-left: auto; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.topnav a { color: var(--blue); font-weight: 700; text-decoration: none; font-size: 16px; padding: 8px 4px; }
+.topnav a:hover { color: var(--orange); }
+.topnav .lang { font-size: 15px; color: var(--grey); border: 2px solid var(--line); border-radius: 999px; padding: 5px 12px; }
+.topnav .lang a { font-size: 15px; padding: 2px; }
+.topnav .lang strong { color: var(--orange); }
+a.backbtn {
+  display: inline-block; margin: 0 0 18px; padding: 12px 20px;
+  background: var(--blue); color: #fff; border-radius: 10px;
+  font-weight: 800; font-size: 17px; text-decoration: none;
+}
+a.backbtn:hover { background: var(--orange); }
+@media (max-width: 560px) {
+  .topnav { margin-left: 0; gap: 10px; }
+  .site-header img.logo { height: 44px; }
+  .topnav a { font-size: 15px; }
+}

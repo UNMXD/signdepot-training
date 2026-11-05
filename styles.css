@@ -185,3 +185,12 @@ a.backbtn:hover { background: var(--orange); }
 .alldone { background: #eef7e6; border: 2px solid #4a7c2f; border-radius: 12px; padding: 16px 18px; font-size: 19px; font-weight: 700; }
 ul.plainlist { font-size: 18px; line-height: 1.6; padding-left: 22px; }
 ul.plainlist li { margin-bottom: 8px; }
+
+/* Photos: hero panel on the home page + pictures on cards.
+   .round is for the website's circle photos: shown whole, their white
+   corners blend into the white card. */
+.heropanel { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 12px; margin: 0 auto 26px; max-width: 520px; box-shadow: 0 1px 3px rgba(10, 29, 147, .06); }
+.heropanel img { display: block; width: 100%; height: auto; border-radius: 12px; }
+.herocaption { margin: 10px 4px 2px; text-align: center; color: var(--grey); font-size: 16px; }
+.cardimg { display: block; width: 100%; height: 170px; object-fit: cover; border-radius: 10px; margin-bottom: 12px; }
+.cardimg.round { height: auto; object-fit: contain; }

@@ -194,3 +194,7 @@ ul.plainlist li { margin-bottom: 8px; }
 .herocaption { margin: 10px 4px 2px; text-align: center; color: var(--grey); font-size: 16px; }
 .cardimg { display: block; width: 100%; height: 170px; object-fit: cover; border-radius: 10px; margin-bottom: 12px; }
 .cardimg.round { height: auto; object-fit: contain; }
+
+/* Lesson videos: our own walkthrough videos (silent, captions on screen). */
+.videowrap { margin: 6px 0 22px; }
+.lessonvideo { display: block; width: 100%; height: auto; background: #000; border: 2px solid var(--line); border-radius: 14px; }

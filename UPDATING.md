@@ -72,20 +72,23 @@ Big home-page panel: `<div class="heropanel"><img ...></div>`.
 "done" line), change the words, done. The Spanish twin gets the same Part the
 same day. Each Part's counter and green done line work on their own: steps.js
 runs every .steps block as its own group. A step photo goes inside the step
-card as <img class="stepimg" src="...">, marked with the underline + letter
+card as <img class="stepimg" src="...">, marked with a thin box + letter
 badge before it is added.
 
 ## Video standard (for EVO walkthroughs)
 
-Silent videos; the captions do the talking. Real screenshots with an animated
+Narrated videos: Aria's voice reads the same lines the captions show
+(Bobby's calls, Nov 6: a woman's voice, the same voice on every video), and
+the captions stay on as a subtitle track. Real screenshots with an animated
 big cursor (black arrow, pink ring) that glides to each tap, a pink click flash
 (#E6007E) at the tap, and a caption on every screen worded as an exact
 instruction (verb + the exact on-screen target). Captions ship as a subtitle
 track (a .vtt file next to the video, set as the video tag's default track),
 never burned into the picture: the player's control gradient washes burned-in
-words out, worst in full screen. Orange underline + badge A = the main
-thing, blue underline + badge B = the second thing (Bobby's call, Nov 5:
-underlines, not circles; the letters A and B stay); badges sit in the margin
+words out, worst in full screen. A thin orange box + badge A = the main
+thing, a thin blue box + badge B = the second thing (Bobby's calls: circles
+were out on Nov 5, thick underlines were out on Nov 6 — a thin box around
+the section is the mark; the letters A and B stay); badges sit in the margin
 so they cover nothing. The small real cursor baked into screenshots gets blurred out of video
 frames. End frames: cursor leaves before the A/B marks get the screen alone.
 Slow pace, about 2 seconds per screen. Full detail lives in

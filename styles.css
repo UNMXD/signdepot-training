@@ -201,3 +201,21 @@ ul.plainlist li { margin-bottom: 8px; }
 
 /* Step photos inside lesson step cards. */
 .stepimg { display: block; width: 100%; height: auto; border-radius: 10px; margin-top: 10px; }
+
+/* Video captions (subtitle track): strong backing so the words stay readable. */
+::cue { background: rgba(0, 0, 0, 0.85); color: #fff; font-weight: 600; }
+
+/* Header refresh (Nov 6): the logo already says Sign Depot USA, so the words
+   beside it go away and Training Library becomes the big title. Brand and nav
+   centered. One style change updates the header on every page. */
+.site-header .wrap { flex-direction: column; align-items: center; gap: 10px; }
+.site-header a.brand { justify-content: center; }
+.site-header .site-name { font-size: 0; }
+.site-header .site-name small {
+  font-size: 32px; font-weight: 800; color: var(--blue);
+  letter-spacing: .2px; text-transform: none; line-height: 1.1;
+}
+.topnav { margin-left: 0; justify-content: center; }
+@media (max-width: 560px) {
+  .site-header .site-name small { font-size: 26px; }
+}

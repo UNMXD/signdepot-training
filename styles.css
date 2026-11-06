@@ -232,3 +232,12 @@ ul.plainlist li { margin-bottom: 8px; }
 .gate-err { color: #b00020; font-weight: 700; }
 .gate-back { display: inline-block; margin-top: 16px; font-size: 17px; }
 .lockline { display: flex; align-items: center; gap: 7px; font-weight: 700; color: var(--blue); margin-top: 8px; }
+
+/* Onboarding map: compact stage rows with lesson bubbles */
+.mapbox{background:#fff;border:1px solid #e3e6f0;border-radius:18px;padding:8px 22px;margin:0 0 10px;box-shadow:0 2px 10px rgba(10,29,147,.05);}
+.stagerow{padding:13px 0;border-bottom:1px solid #eef0f7;}
+.stagerow:last-child{border-bottom:none;}
+.stagename{font-weight:700;color:#0A1D93;font-size:18px;margin-bottom:7px;}
+.chips{display:flex;flex-wrap:wrap;gap:7px;}
+.chip{background:#eef1fb;border:1px solid #c9d2f2;color:#0A1D93;border-radius:999px;padding:4px 13px;font-size:15px;font-weight:600;}
+.stagenote{color:#444;font-size:16px;}

@@ -28,7 +28,7 @@
   <div class="wrap">
     <a class="backlink" href="sales.html">← Ventas</a>
     <h1>Recibir una Venta y Capturar un Estimado</h1>
-    <p>Desde la solicitud del cliente hasta un estimado completo en EVO. Sigue las partes en orden. La Parte A ya está lista. Las demás se están construyendo.</p>
+    <p>Desde la solicitud del cliente hasta un estimado completo en EVO. Sigue las partes en orden. Las Partes A y B ya están listas. Las demás se están construyendo.</p>
   </div>
 </div>
 
@@ -76,9 +76,55 @@
 
   <p class="alldone" hidden>Parte A lista. El estimado está iniciado. La Parte B lo configura.</p>
 
+  <h2 class="section">Parte B: Terminar de iniciar el estimado</h2>
+  <p class="lede">Tocaste Next. Este es el paso 2, Details. Tres campos y un botón.</p>
+
+  <div class="progresswrap">
+    <div class="progresstext">0 pasos</div>
+    <div class="progress"><div class="bar"></div></div>
+  </div>
+
+  <div class="steps">
+    <label class="step">
+      <input type="checkbox" class="stepcheck">
+      <span>
+        <span class="steptitle">Número de PO: solo si te dieron uno</span>
+        <p>Si el cliente te dio un número de PO, escríbelo en <strong>Customer PO# (A)</strong>. ¿No hay PO? Déjalo en blanco.</p>
+        <img class="stepimg" src="../images/part-b-po.png" alt="El campo Customer PO# en la pantalla Details">
+      </span>
+    </label>
+    <label class="step">
+      <input type="checkbox" class="stepcheck">
+      <span>
+        <span class="steptitle">¿De dónde vino el trabajo?</span>
+        <p>Toca <strong>Estimate Origination (A)</strong> y elige el más parecido: Walk-In, Referrals, Web Marketing, Existing Customer.</p>
+        <img class="stepimg" src="../images/part-b-origination.png" alt="El campo Estimate Origination en la pantalla Details">
+      </span>
+    </label>
+    <label class="step">
+      <input type="checkbox" class="stepcheck">
+      <span>
+        <span class="steptitle">¿Quién lo vendió?</span>
+        <p>Toca <strong>Salesperson (A)</strong> y elige quién tomó la venta.</p>
+        <img class="stepimg" src="../images/part-b-salesperson.png" alt="El campo Salesperson en la pantalla Details">
+      </span>
+    </label>
+    <label class="step">
+      <input type="checkbox" class="stepcheck">
+      <span>
+        <span class="steptitle">Toca Create Estimate</span>
+        <p>Toca el botón verde <strong>Create Estimate (A)</strong>. El estimado se abre, con su número arriba. Ya quedó guardado. La siguiente parte agrega lo que van a comprar.</p>
+        <img class="stepimg" src="../images/part-b-create.png" alt="El botón verde Create Estimate">
+      </span>
+    </label>
+  </div>
+
+  <p class="alldone" hidden>Parte B lista. El estimado está creado y abierto. La Parte C agrega lo que van a comprar.</p>
+
+  <div class="note"><p style="margin:0;">Eso es todo lo que pide el paso 2. Aquí no hay fecha de entrega, Pickup, términos ni impuesto: los términos y el impuesto del 8.25% vienen solos en el estimado, y las entregas o instalaciones viven en la pestaña <strong>Destinations</strong> del estimado.</p></div>
+
   <h2 class="section">Lo que sigue</h2>
   <ul class="plainlist">
-    <li><strong>Parte B: Configurar la orden.</strong> Fecha de entrega, Pickup, términos, impuesto, quién lo diseña y el número de PO.</li>
     <li><strong>Parte C: Agregar lo que compran.</strong> Cada cosa que compran lleva su propia línea.</li>
     <li><strong>Parte D: Categoría y descripción para el cliente.</strong> Dos campos pequeños en cada línea.</li>
     <li><strong>Parte E: Avisar al equipo.</strong> Las instrucciones van en las Notes de la línea. Nunca en el Chat de la orden.</li>

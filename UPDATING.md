@@ -67,19 +67,45 @@ overwriting the old one. The page does not change at all.
 **Add a photo** — file goes in `images/`. On a card: `<img class="cardimg" ...>`.
 Big home-page panel: `<div class="heropanel"><img ...></div>`.
 
-**Add a new Part to a lesson** — copy the Part A section of
+**Add a new section to a lesson** — copy the first section of
 `take-in-a-sale.html` (heading, video block, progress counter, steps, the green
-"done" line), change the words, done. The Spanish twin gets the same Part the
-same day. Each Part's counter and green done line work on their own: steps.js
+"done" line), change the words, done. Sections carry real titles, never
+Part A/B letters (Bobby's call, Nov 6). The Spanish twin gets the same
+section the same day. Each section's counter and green done line work on
+their own: steps.js
 runs every .steps block as its own group. A step photo goes inside the step
 card as <img class="stepimg" src="...">, marked with a thin box + letter
 badge before it is added.
 
+## The Onboarding rule (Bobby, Nov 6)
+
+If EVO's own Onboarding can teach it, we do NOT build our own version.
+Link to the Onboarding page (https://evo.corebridge.net/my-profile/training/onboarding)
+and name the section/stage instead. We only build lessons for what is ours:
+our workflow, our standards, our machines, our shop. Every department page
+carries a short Onboarding pointer list (the department's stage picks) next
+to our own lessons. Getting there: tap your name (bottom left in EVO), then
+Onboarding. Department picks live in
+`~/workspace/3m-film-management/onboarding/department-picks.md`.
+
+## Machines placement (Bobby, Nov 6)
+
+There is no central Machines page. Each machine is listed on the page of
+the department that RUNS it, with a photo card: Printing = Flora, Epson,
+Canon, Summa, Colex (the print tech runs the Colex and the Summa, that is
+why they sit in Printing); Production = Laminator, Mounting Table;
+Installation = Bucket Truck (just "Bucket Truck" — no year or model).
+The old Ranger, NV200 and F-150 pages were deleted Nov 6.
+
 ## Video standard (for EVO walkthroughs)
 
 Narrated videos: Aria's voice reads the same lines the captions show
-(Bobby's calls, Nov 6: a woman's voice, the same voice on every video), and
-the captions stay on as a subtitle track. Real screenshots with an animated
+(Bobby's calls, Nov 6: a woman's voice, the same voice on every video) —
+that is for the ENGLISH videos. Her Spanish is NOT used: it comes and goes,
+sometimes native and sometimes wrong (Bobby's catch, Nov 6), so Spanish
+narration is parked until a consistently native woman's voice is picked.
+Spanish videos stay silent with Spanish captions meanwhile; a voice track
+can be added to them later without rebuilding anything. Real screenshots with an animated
 big cursor (black arrow, pink ring) that glides to each tap, a pink click flash
 (#E6007E) at the tap, and a caption on every screen worded as an exact
 instruction (verb + the exact on-screen target). Captions ship as a subtitle

@@ -241,3 +241,7 @@ ul.plainlist li { margin-bottom: 8px; }
 .chips{display:flex;flex-wrap:wrap;gap:7px;}
 .chip{background:#eef1fb;border:1px solid #c9d2f2;color:#0A1D93;border-radius:999px;padding:4px 13px;font-size:15px;font-weight:600;}
 .stagenote{color:#444;font-size:16px;}
+
+a.chip { text-decoration: none; color: var(--ink); cursor: pointer; }
+a.chip:hover { border-color: var(--blue); color: var(--blue); }
+.art { font-size: 13.5px; font-weight: 700; color: var(--blue); align-self: center; white-space: nowrap; }

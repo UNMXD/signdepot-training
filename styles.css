@@ -245,3 +245,7 @@ ul.plainlist li { margin-bottom: 8px; }
 a.chip { text-decoration: none; color: var(--ink); cursor: pointer; }
 a.chip:hover { border-color: var(--blue); color: var(--blue); }
 .art { font-size: 13.5px; font-weight: 700; color: var(--blue); align-self: center; white-space: nowrap; }
+
+/* Embedded video players */
+.video { position: relative; padding-top: 56.25%; border-radius: 12px; overflow: hidden; background: #000; margin: 10px 0 6px; }
+.video iframe, .video video { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }

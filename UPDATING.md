@@ -79,8 +79,11 @@ badge before it is added.
 
 Silent videos; the captions do the talking. Real screenshots with an animated
 big cursor (black arrow, pink ring) that glides to each tap, a pink click flash
-(#E6007E) at the tap, caption bar on every screen worded as an exact instruction
-(verb + the exact on-screen target). Orange underline + badge A = the main
+(#E6007E) at the tap, and a caption on every screen worded as an exact
+instruction (verb + the exact on-screen target). Captions ship as a subtitle
+track (a .vtt file next to the video, set as the video tag's default track),
+never burned into the picture: the player's control gradient washes burned-in
+words out, worst in full screen. Orange underline + badge A = the main
 thing, blue underline + badge B = the second thing (Bobby's call, Nov 5:
 underlines, not circles; the letters A and B stay); badges sit in the margin
 so they cover nothing. The small real cursor baked into screenshots gets blurred out of video

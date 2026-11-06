@@ -12,7 +12,7 @@
     ph: 'Contraseña',
     btn: 'Abrir',
     err: 'Esa contraseña no es correcta. Inténtalo de nuevo.',
-    back: '← Volver a la Biblioteca de Capacitación',
+    back: '← Volver al Portal SDUSA',
     backHref: 'index.html'
   } : {
     title: 'Management',
@@ -20,7 +20,7 @@
     ph: 'Password',
     btn: 'Unlock',
     err: 'That password is not right. Try again.',
-    back: '← Back to the Training Library',
+    back: '← Back to the SDUSA Portal',
     backHref: 'index.html'
   };
 

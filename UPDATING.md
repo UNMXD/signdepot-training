@@ -151,3 +151,14 @@ Slow pace, about 2 seconds per screen. Full detail lives in
   SD-Orders (Asana) Manual v1.0, both Bobby's. SD-Orders is the Asana
   project that tracks jobs (status moves the task — never drag).
 - The cursor-trail trial ended Nov 6: trail.js removed at Bobby's call.
+
+## The name (Bobby, Nov 6)
+
+The site is the **SDUSA Portal** — Training Library is retired as the
+name because the site is becoming the company hub, not just training
+(training is one part of it). Header brand, home title, and back
+buttons all say SDUSA Portal (ES: Portal SDUSA). The repo and the
+github.io address keep their old names for now; a future move to our
+own domain with per-employee login (hub.thesigndepot.com + Cloudflare
+Access is the leading route) is planned but NOT approved yet — no DNS
+changes without Bobby's explicit word.

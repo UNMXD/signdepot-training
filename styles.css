@@ -198,3 +198,6 @@ ul.plainlist li { margin-bottom: 8px; }
 /* Lesson videos: our own walkthrough videos (silent, captions on screen). */
 .videowrap { margin: 6px 0 22px; }
 .lessonvideo { display: block; width: 100%; height: auto; background: #000; border: 2px solid var(--line); border-radius: 14px; }
+
+/* Step photos inside lesson step cards. */
+.stepimg { display: block; width: 100%; height: auto; border-radius: 10px; margin-top: 10px; }

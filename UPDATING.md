@@ -70,16 +70,20 @@ Big home-page panel: `<div class="heropanel"><img ...></div>`.
 **Add a new Part to a lesson** — copy the Part A section of
 `take-in-a-sale.html` (heading, video block, progress counter, steps, the green
 "done" line), change the words, done. The Spanish twin gets the same Part the
-same day.
+same day. Each Part's counter and green done line work on their own: steps.js
+runs every .steps block as its own group. A step photo goes inside the step
+card as <img class="stepimg" src="...">, marked with the underline + letter
+badge before it is added.
 
 ## Video standard (for EVO walkthroughs)
 
 Silent videos; the captions do the talking. Real screenshots with an animated
 big cursor (black arrow, pink ring) that glides to each tap, a pink click flash
 (#E6007E) at the tap, caption bar on every screen worded as an exact instruction
-(verb + the exact on-screen target). Orange ring + badge A = the main thing,
-blue ring + badge B = the second thing; badges sit in the margin so they cover
-nothing. The small real cursor baked into screenshots gets blurred out of video
+(verb + the exact on-screen target). Orange underline + badge A = the main
+thing, blue underline + badge B = the second thing (Bobby's call, Nov 5:
+underlines, not circles; the letters A and B stay); badges sit in the margin
+so they cover nothing. The small real cursor baked into screenshots gets blurred out of video
 frames. End frames: cursor leaves before the A/B marks get the screen alone.
 Slow pace, about 2 seconds per screen. Full detail lives in
 `~/workspace/3m-film-management/EVO-Sales-Workflow-Draft.md` and

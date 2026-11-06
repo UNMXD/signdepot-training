@@ -198,3 +198,24 @@ related. Vehicle Wrap = a wrap actually going on a vehicle. Perf Vinyl
 together by the film. Generic "hands touching film" does not pass.
 When Bobby sends example images, match that kind of shot (free-license
 versions for the public site).
+
+## Videos get players (Bobby, Nov 6)
+
+On training pages, videos play ON the page: YouTube and Vimeo links
+become embedded players (youtube-nocookie embeds, .video wrapper in
+styles.css), and direct video files (.mp4) become native players.
+Links that cannot embed cleanly (a video inside another site's page,
+Facebook reels, non-video pages) stay as buttons. The EVO Onboarding
+Map stays links on purpose: it is an index into EVO's own lessons.
+
+## Production & Install merged (Bobby, Nov 6)
+
+Production and Installation are ONE department now: "Production &
+Install" (ES: Producción e Instalación), because product guides kept
+crossing the line (wrap installs, banner hanging). production.html is
+the merged page (Most Common Jobs, Trainings, Installing, Machines &
+Equipment incl. Bucket Truck and Banner Welder). installation.html and
+es/installation.html are "we moved" stubs pointing to it. The portal
+has FIVE departments: Management, Sales, Design, Printing,
+Production & Install. This merges the site sections only — people's
+jobs and the SD-Orders stages (Production, Install) stay as they are.

@@ -189,3 +189,12 @@ RTA Preparation (RTA = Ready To Apply, for cut vinyl: weeding, masking,
 ready to install), Laminating a Job, Working With Max Metal, and
 Transporting Aluminum. They sit in Production's trainings as
 coming-soon cards until their content is built with Chente.
+
+## Photos must read instantly (Bobby, Nov 6)
+
+A card photo has to SAY the topic at a glance, not just be vaguely
+related. Vehicle Wrap = a wrap actually going on a vehicle. Perf Vinyl
+= the perforated dot pattern on glass. Safety Film = broken glass held
+together by the film. Generic "hands touching film" does not pass.
+When Bobby sends example images, match that kind of shot (free-license
+versions for the public site).

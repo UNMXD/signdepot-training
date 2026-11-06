@@ -89,7 +89,6 @@ Onboarding. Department picks live in
 `~/workspace/3m-film-management/onboarding/department-picks.md`.
 
 ## Machines placement (Bobby, Nov 6)
-
 There is no central Machines page. Each machine is listed on the page of
 the department that RUNS it, with a photo card: Printing = Flora, Epson,
 Canon, Summa, Colex (the print tech runs the Colex and the Summa, that is
@@ -127,3 +126,28 @@ Slow pace, about 2 seconds per screen. Full detail lives in
   a minute and browsers cache, so reload once.
 - Tell the other chats what you changed (files + what the change does) so the
   next update builds on it instead of over it.
+
+## Management gate and private files (Nov 6)
+
+- Management pages (EN + ES) are gated by gate.js: clicking any
+  management.html link (or landing on the page) asks for the shared
+  manager password (set by Bobby — ask him, never write it in docs).
+  It is a LIGHT lock, not security: the site is public and the password
+  sits in the page code. Sensitive files NEVER go on this site.
+- The real protection is the private Drive folder "SD-Management"
+  (Bobby's Drive, shared by name with managers only). The Management
+  page's Private Manager Documents card links to it. The master
+  password list lives there, along with Management Roles, Inventory,
+  Materials and the rest. If a manager file matters, it lives in
+  SD-Management, and the site only points at it.
+- Department pages carry the full planned section map as cards
+  (coming-soon cards included), so the whole curriculum is visible
+  before each piece is built. Sales = the 8 our-workflow topics;
+  Management = GM / Sales Manager / Production Manager role sections,
+  Scheduling Installs, Inventory; Design includes Prepare a Job for
+  Print and the File System section; Printing includes Finding Print
+  Files; Production and Installation carry their SD-Orders pieces.
+- Source docs behind those sections: SD File System v1.1 and the
+  SD-Orders (Asana) Manual v1.0, both Bobby's. SD-Orders is the Asana
+  project that tracks jobs (status moves the task — never drag).
+- The cursor-trail trial ended Nov 6: trail.js removed at Bobby's call.

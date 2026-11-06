@@ -219,3 +219,16 @@ ul.plainlist li { margin-bottom: 8px; }
 @media (max-width: 560px) {
   .site-header .site-name small { font-size: 26px; }
 }
+
+/* Management gate (gate.js) */
+.gate-locked { overflow: hidden; }
+.gate-overlay { position: fixed; inset: 0; background: rgba(10,29,147,.25); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); z-index: 999; display: flex; align-items: center; justify-content: center; padding: 20px; }
+.gate-card { background: #fff; border-radius: 16px; padding: 34px 30px; max-width: 420px; width: 100%; text-align: center; box-shadow: 0 18px 50px rgba(0,0,0,.35); }
+.gate-card h2 { margin: 10px 0 6px; color: var(--blue); font-size: 30px; }
+.gate-card p { margin: 6px 0 14px; font-size: 18px; }
+.gate-form { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+.gate-input { font-size: 19px; padding: 12px 14px; border: 2px solid var(--blue); border-radius: 10px; width: 210px; }
+.gate-btn { font-size: 19px; font-weight: 700; padding: 12px 22px; border: none; border-radius: 10px; background: var(--orange); color: #fff; cursor: pointer; }
+.gate-err { color: #b00020; font-weight: 700; }
+.gate-back { display: inline-block; margin-top: 16px; font-size: 17px; }
+.lockline { display: flex; align-items: center; gap: 7px; font-weight: 700; color: var(--blue); margin-top: 8px; }

@@ -181,3 +181,11 @@ departments). Production carries a "Most Common Jobs" section at the
 top with the top products — Banners first (our most important product),
 then Yard Signs & H-Stakes, Vehicle Wraps, Perf Vinyl. Build the
 product pages one at a time, Banners first.
+
+## Chente's Production additions (Nov 6)
+
+Chente (Production Manager) asked for these on the Production page:
+RTA Preparation (RTA = Ready To Apply, for cut vinyl: weeding, masking,
+ready to install), Laminating a Job, Working With Max Metal, and
+Transporting Aluminum. They sit in Production's trainings as
+coming-soon cards until their content is built with Chente.

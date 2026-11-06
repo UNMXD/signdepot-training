@@ -162,3 +162,22 @@ github.io address keep their old names for now; a future move to our
 own domain with per-employee login (hub.thesigndepot.com + Cloudflare
 Access is the leading route) is planned but NOT approved yet — no DNS
 changes without Bobby's explicit word.
+
+## Images everywhere (Bobby, Nov 6)
+
+Every card and section gets a picture — the site must be easy at a
+glance, not walls of text. Photos show the work or the action, never
+finished-product beauty shots, and no people's faces (crop them out).
+Stock photos must be free-license only (Unsplash, Pexels, Wikimedia
+Commons). Real shop photos from Bobby can replace any stock photo by
+overwriting the same file name in images/topics/.
+
+## Product guides (Bobby, Nov 6)
+
+Instructions are organized BY PRODUCT: each product gets ONE page with
+its full instructions, finishing and installing together (everything
+about banners lives on the Banners page, never split across
+departments). Production carries a "Most Common Jobs" section at the
+top with the top products — Banners first (our most important product),
+then Yard Signs & H-Stakes, Vehicle Wraps, Perf Vinyl. Build the
+product pages one at a time, Banners first.

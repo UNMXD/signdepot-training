@@ -106,6 +106,10 @@ a.btn:hover { background: #d94800; }
 /* Checklist */
 .checkgroup { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 6px 22px 14px; margin-bottom: 16px; }
 .checkgroup h3 { color: var(--blue); font-size: 20px; margin: 16px 0 6px; }
+.tips { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 6px 22px 10px; margin-bottom: 16px; }
+.tips ul { margin: 8px 0; padding-left: 22px; }
+.tips li { margin: 10px 0; font-size: 17px; }
+.tips li strong { color: var(--blue); }
 ul.check { list-style: none; padding: 0; margin: 0; }
 ul.check li { padding: 11px 0 11px 42px; position: relative; border-bottom: 1px solid var(--line); font-size: 17px; }
 ul.check li:last-child { border-bottom: none; }

@@ -1,0 +1,19 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.880
+Una entrega tiene dos movimientos: el estado en EVO y la publicación en Slack.
+
+00:00:04.880 --> 00:00:11.008
+En EVO, el estado de la partida es la verdad. Cuando el trabajo avanza, actualiza el estado.
+
+00:00:11.008 --> 00:00:18.288
+¿Necesitas diseño? Publica en sd-design-needed. Primero el número de orden, luego las especificaciones y el archivo del cliente adjunto.
+
+00:00:18.288 --> 00:00:26.576
+¿Listo para imprimir? Una línea en sd-production: el número de orden, el cliente, ready to print y el enlace de EVO.
+
+00:00:26.576 --> 00:00:32.728
+¿Instalado y terminado? Publica las fotos en sd-completed y etiqueta a Yida para cerrar el ciclo.
+
+00:00:32.728 --> 00:00:38.448
+EVO guarda el trabajo. Slack guarda la conversación. El número de orden los une.

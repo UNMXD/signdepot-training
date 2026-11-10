@@ -68,13 +68,13 @@
     });
   }
 
-  var onMgmtPage = /(^|\/)management\.html$/.test(window.location.pathname);
+  var onMgmtPage = /(^|\/)(management|meetings)\.html$/.test(window.location.pathname);
   if (onMgmtPage && !unlocked()) {
     showGate(null);
   }
 
   document.addEventListener('click', function (ev) {
-    var a = ev.target.closest ? ev.target.closest('a[href$="management.html"]') : null;
+    var a = ev.target.closest ? ev.target.closest('a[href$="management.html"], a[href$="meetings.html"]') : null;
     if (!a || onMgmtPage) return;
     if (unlocked()) return;
     ev.preventDefault();

@@ -238,6 +238,17 @@ the site). Do not re-add any Drive link to Management until Bobby
 says the portal is fully up and running and he has sorted the
 folder's security/sharing himself.
 
+## Sales Reports section on Management (Bobby, Nov 10)
+
+Exception Bobby approved Nov 10: a single report DOCUMENT may be
+linked from the Management page under its own "Sales Reports"
+section (ES: Reportes de Ventas), as a title-and-link-only card.
+The report itself lives in Drive (SD-Management > Sales > Spot
+Checks); Drive permissions are the lock, never figures on the page.
+New reports stack newest first in that section. This does NOT
+reopen linking the Drive folder itself, which stays off (rule
+above). First entry: Sales Spot Check - 2026-11-10.
+
 ## Banners guide live (Nov 9)
 banners.html (+ ES twin) is the first full product guide: Weld the
 Hems (Miller Weldmaster T-300 video) -> Add the Grommets (Stimpson

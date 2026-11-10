@@ -1,0 +1,19 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.952
+A handoff is two moves: the status in EVO, and the post in Slack.
+
+00:00:04.952 --> 00:00:11.152
+In EVO, the line item status is the truth. When the work moves, update the status.
+
+00:00:11.152 --> 00:00:18.432
+Need design? Post in sd-design-needed. Order number first, then the specs, and the client file attached.
+
+00:00:18.432 --> 00:00:26.384
+Ready to print? One line in sd-production: the order number, the customer, ready to print, and the EVO link.
+
+00:00:26.384 --> 00:00:32.536
+Installed and done? Post the photos in sd-completed, and tag Yida to close the loop.
+
+00:00:32.536 --> 00:00:38.136
+EVO holds the job. Slack holds the talk. The order number ties them together.

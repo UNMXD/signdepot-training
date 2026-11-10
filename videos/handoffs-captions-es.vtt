@@ -1,19 +1,19 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:02.600
-Abre SD-Orders.
+00:00:00.000 --> 00:00:04.880
+Una entrega tiene dos movimientos: el estado en EVO y la publicación en Slack.
 
-00:00:02.600 --> 00:00:06.210
-Cada trabajo empieza como una tarea en New Orders.
+00:00:04.880 --> 00:00:11.008
+En EVO, el estado de la partida es la verdad. Cuando el trabajo avanza, actualiza el estado.
 
-00:00:06.210 --> 00:00:09.700
-Pon la fecha límite, el tipo y la prioridad.
+00:00:11.008 --> 00:00:18.288
+¿Necesitas diseño? Publica en sd-design-needed. Primero el número de orden, luego las especificaciones y el archivo del cliente adjunto.
 
-00:00:09.700 --> 00:00:13.060
-Habla en la tarea. Etiqueta a tu compañero.
+00:00:18.288 --> 00:00:26.576
+¿Listo para imprimir? Una línea en sd-production: el número de orden, el cliente, ready to print y el enlace de EVO.
 
-00:00:13.060 --> 00:00:16.980
-El estado mueve el trabajo. Nunca arrastres una tarea.
+00:00:26.576 --> 00:00:32.728
+¿Instalado y terminado? Publica las fotos en sd-completed y etiqueta a Yida para cerrar el ciclo.
 
-00:00:16.980 --> 00:00:21.430
-Diseño entrega con Ready For Print o Ready for Outsource.
+00:00:32.728 --> 00:00:38.448
+EVO guarda el trabajo. Slack guarda la conversación. El número de orden los une.

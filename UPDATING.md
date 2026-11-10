@@ -5,7 +5,14 @@ AI chat working on the site. Follow this and every update lands the same way.
 
 ## The basics
 
-- **Live site:** https://unmxd.github.io/signdepot-training/
+- **Live site:** https://portal.thesigndepot.com (since Nov 9, 2026; the old
+  https://unmxd.github.io/signdepot-training/ address forwards there)
+- **DNS:** thesigndepot.com lives in Cloudflare now, not GoDaddy. The portal
+  record points at the GitHub Pages site and runs through Cloudflare. The
+  website host (108.178.20.198) and all email records were carried over
+  unchanged. Make DNS changes in Cloudflare. A Cloudflare Access login wall
+  for the portal is planned but NOT enabled yet (Bobby enables Zero Trust in
+  the Cloudflare dashboard first).
 - **Repo:** github.com/UNMXD/signdepot-training (public)
 - **Local source:** `~/workspace/3m-film-management/github-site/` — this folder IS
   the site. Every chat working on the site edits these same files.
@@ -135,11 +142,13 @@ Slow pace, about 2 seconds per screen. Full detail lives in
   It is a LIGHT lock, not security: the site is public and the password
   sits in the page code. Sensitive files NEVER go on this site.
 - The real protection is the private Drive folder "SD-Management"
-  (Bobby's Drive, shared by name with managers only). The Management
-  page's Private Manager Documents card links to it. The master
-  password list lives there, along with Management Roles, Inventory,
-  Materials and the rest. If a manager file matters, it lives in
-  SD-Management, and the site only points at it.
+  (Bobby's Drive, shared by name with managers only). The portal does
+  NOT link to it: Bobby had the link removed from the Management pages
+  on Nov 7, 2026, until he sorts the folder's sharing himself. Do not
+  re-add the link without his word. The master password list lives
+  there, along with Management Roles, Inventory, Materials and the
+  rest. If a manager file matters, it lives in SD-Management, never
+  on this public site.
 - Department pages carry the full planned section map as cards
   (coming-soon cards included), so the whole curriculum is visible
   before each piece is built. Sales = the 8 our-workflow topics;
@@ -219,3 +228,32 @@ es/installation.html are "we moved" stubs pointing to it. The portal
 has FIVE departments: Management, Sales, Design, Printing,
 Production & Install. This merges the site sections only — people's
 jobs and the SD-Orders stages (Production, Install) stay as they are.
+
+## Drive stays OFF Management (Bobby, reaffirmed Nov 8)
+
+The SD-Management Drive folder is NOT linked from the Management
+pages (the Private Manager Documents card was removed Nov 7, EN+ES,
+live-verified again Nov 8: no Drive link or folder URL anywhere in
+the site). Do not re-add any Drive link to Management until Bobby
+says the portal is fully up and running and he has sorted the
+folder's security/sharing himself.
+
+## Banners guide live (Nov 9)
+banners.html (+ ES twin) is the first full product guide: Weld the
+Hems (Miller Weldmaster T-300 video) -> Add the Grommets (Stimpson
+press videos) -> Hang It, each part with checkbox steps. The shop
+welder is a Miller Weldmaster T-300 (machine page says so, manual
+linked). Grommet press is a simple manual press.
+
+## Safety Film page FINAL shape (Nov 9, Bobby, later same day)
+Page is now ONLY: the two RC videos + the 10-step checklist built
+from them + the installer kit (contents only, NO prices). The
+written 3M spec checklist, red flags, and sources line came OFF
+the page; the spec text is archived verbatim at
+~/workspace/3m-film-management/safety-film-spec-archive.md
+(restorable). Kit cost ($221.25, EPD) lives as a card in the
+Management Resources section next to the Accent training card.
+
+- **Yard Signs guide** (yard-signs.html, EN+ES, Nov 9, 2026): Bobby renamed the card from "Yard Signs & H-Stakes" to just "Yard Signs." Two sections: cutting coroplast down with an exacto blade (steps only — no clean sign-shop cutting video exists; a 30-second shop-filmed cut would drop in) and H-stake installation with the UZ Marketing video (lgJENfaIGM0: both methods, foot on the middle bar, no stomping).
+
+**Tips & Tricks rule (Bobby, Nov 9, 2026):** every product guide gets a "Tips & Tricks" section (ES: Consejos y Trucos) at the end, IF we have real tips for that job. Never filler: a page with no genuine tips gets no section. Banners, Yard Signs, and Safety Film have theirs.

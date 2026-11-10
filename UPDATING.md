@@ -131,6 +131,11 @@ Slow pace, about 2 seconds per screen. Full detail lives in
 
 - Verify the live pages (EN + ES) actually show the change; Pages takes about
   a minute and browsers cache, so reload once.
+- REPLACING A VIDEO: give the new file a NEW name (handoffs-v2.mp4) and
+  update the page's source/track paths. Browsers cache video files hard at
+  the same URL, so a same-name swap leaves viewers watching the old video
+  (bit us Nov 10: the Handoffs redo was live in the repo while Bobby's
+  browser kept playing the cached Asana version).
 - Tell the other chats what you changed (files + what the change does) so the
   next update builds on it instead of over it.
 

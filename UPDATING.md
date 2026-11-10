@@ -136,6 +136,11 @@ Slow pace, about 2 seconds per screen. Full detail lives in
   the same URL, so a same-name swap leaves viewers watching the old video
   (bit us Nov 10: the Handoffs redo was live in the repo while Bobby's
   browser kept playing the cached Asana version).
+- PUBLISH ORDER for new video files: upload the video/caption files FIRST
+  and the page that points at them LAST, in the same batch. If a live page
+  ever points at a video address that is not up yet, browsers cache the
+  failure and keep showing an empty player even after the file lands
+  (bit us Nov 10 with handoffs-v2; fixed by moving to a fresh v3 name).
 - Tell the other chats what you changed (files + what the change does) so the
   next update builds on it instead of over it.
 

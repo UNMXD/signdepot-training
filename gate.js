@@ -68,13 +68,13 @@
     });
   }
 
-  var onMgmtPage = /(^|\/)management\.html$/.test(window.location.pathname);
+  var onMgmtPage = /(^|\/)(management|sales-spot-check-2026-11-10)\.html$/.test(window.location.pathname);
   if (onMgmtPage && !unlocked()) {
     showGate(null);
   }
 
   document.addEventListener('click', function (ev) {
-    var a = ev.target.closest ? ev.target.closest('a[href$="management.html"]') : null;
+    var a = ev.target.closest ? ev.target.closest('a[href$="management.html"], a[href$="sales-spot-check-2026-11-10.html"]') : null;
     if (!a || onMgmtPage) return;
     if (unlocked()) return;
     ev.preventDefault();

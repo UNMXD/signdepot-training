@@ -107,7 +107,10 @@ The old Ranger, NV200 and F-150 pages were deleted Nov 6.
 
 Narrated videos: Aria's voice reads the same lines the captions show
 (Bobby's calls, Nov 6: a woman's voice, the same voice on every video) —
-that is for the ENGLISH videos. Her Spanish is NOT used: it comes and goes,
+that is for the ENGLISH videos. PRONUNCIATION (Bobby, Nov 10): EVO is
+pronounced "EEVO". It is still spelled EVO everywhere on screen and in
+captions; only the narration script the voice reads spells it "Eevo" so
+she says it right. Her Spanish is NOT used: it comes and goes,
 sometimes native and sometimes wrong (Bobby's catch, Nov 6), so Spanish
 narration is parked until a consistently native woman's voice is picked.
 Spanish videos stay silent with Spanish captions meanwhile; a voice track

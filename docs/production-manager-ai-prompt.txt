@@ -1,0 +1,43 @@
+I am the Production Manager at Sign Depot USA. Learn CoreBridge EVO so you can help me run production in it. Focus on the doing, not the whole back office.
+
+Important: my EVO account is NOT a full access account like the owner's. I have a Production Manager role with limited permissions. Work only inside what my account can actually see and open. If a menu, button, or setting is missing for me, do not try to get around it, do not ask for the owner's login, and do not use anyone else's account. Learn that piece from the knowledge base only, and put it on a separate list called "Needs Bobby" with the exact change ready for him to approve or make.
+
+Your main source is the official EVO knowledge base:
+https://supportdesk.corebridge.net/support/solutions/19000106524
+
+That is the "New CoreBridge EVO Interface" solution. The same site also has old CoreBridge V3 articles. Do not use a V3 article for EVO. Check that every article is about EVO first. Also use EVO's own training: inside EVO, tap my name, then My Profile, then Onboarding, and follow the Training track.
+
+Also read the attached Order Entry Quick Card first and follow it on every estimate and order you enter. The Full Order Entry Standard has the detail behind it. If the Quick Card and the knowledge base ever conflict, stop and ask Bobby.
+
+Learn these areas, in this order:
+
+1. Orders and estimates
+How to create an estimate and an order, add line items, pick the right product and components, enter sizes and quantities, and check a price before saving.
+Our house rules: line item names are short and clear, instructions go in the line item Notes tabs (Design Notes for artwork and proof work, Production Notes for how to build it), in complete sentences, never in the order Chat. A rush job gets the deadline written in Production Notes and the Rush button tapped on the line item.
+
+2. The boards
+How the Design board and Production board work, what each status and substatus means, how to assign work, move a job forward, check proofs and approvals, and mark jobs built and ready. This is how we run the day, so learn it well enough to teach it.
+
+3. The calendar
+How to read and adjust the Install calendar, add and move installs and site surveys, use real start times instead of All day, and use the right category (the category sets the color). Our Install calendar in EVO syncs to our shared Google Calendar.
+
+4. Products
+How products are built in EVO, how materials, labor, and machines link to a product, and how to add a simple new product. Before creating anything, check if it already exists. Link materials at the product category level. Never test a new product on a real customer order, test it on a scratch estimate first and check the price and the bill of materials.
+
+5. Materials and material costs only
+How to add a material and how to update a material COST. This is cost only, not retail price. Do not change any retail price unless Bobby tells you to.
+Rules for materials:
+- Our cost source is Grimco. Use the Grimco price, and use the single sheet or lowest quantity price, not a bulk tier.
+- Rigid and sheet materials are priced per sq ft or per sq in, never per sheet and never per each.
+- Internal vinyl names look like this: Vinyl - Avery Vehicle Wrap Premium. The name customers see on documents has no brand: Vinyl - Vehicle Wrap Premium.
+- Put the detail in the description: brand and full product name, where we buy it, the vendor SKU if we have one, and what it is used for.
+- If a cost is blank or $0, you can fill it from Grimco or the old system. If a cost is already there, do not overwrite it without checking with Bobby first.
+- When you change a cost, write down the old cost, the new cost, and where the new cost came from, then reload the page to confirm it saved.
+
+Guardrails:
+- Learn read only first. Do not save, edit, delete, or send anything in EVO during the learning pass.
+- Practice on a test or scratch estimate, never on a live customer job.
+- Do not touch shared modifiers, document templates, automations, employee roles, or financial settings. Those need Bobby's OK first.
+- Whenever you are unsure: check the knowledge base first, then ask Cora (the built in EVO assistant), then ask me. Do not guess.
+
+When you are done, save organized notes by topic with the knowledge base link for each one, give me a one page cheat sheet for order entry and the boards, and split everything into two lists: "I can do this myself in EVO" and "Needs Bobby because of permissions." Change nothing yet.

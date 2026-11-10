@@ -238,16 +238,23 @@ the site). Do not re-add any Drive link to Management until Bobby
 says the portal is fully up and running and he has sorted the
 folder's security/sharing himself.
 
-## Sales Reports section on Management (Bobby, Nov 10)
+## Monthly Insights on Management (Bobby, Nov 10, SUPERSEDES the Sales Reports section above)
 
-Exception Bobby approved Nov 10: a single report DOCUMENT may be
-linked from the Management page under its own "Sales Reports"
-section (ES: Reportes de Ventas), as a title-and-link-only card.
-The report itself lives in Drive (SD-Management > Sales > Spot
-Checks); Drive permissions are the lock, never figures on the page.
-New reports stack newest first in that section. This does NOT
-reopen linking the Drive folder itself, which stays off (rule
-above). First entry: Sales Spot Check - 2026-11-10.
+Bobby's final shape: Management carries a "Monthly Insights"
+section (ES: Resumen Mensual) near the TOP of the page, refreshed
+monthly, at-a-glance only. It holds a short summary card for the
+current month (spot check themes, with the title-and-link card
+into the Drive Doc) and a short "how we did" card for last month's
+sales report. Headline numbers from the monthly sales report are
+OK here at Bobby's direction; the FULL reports still live in
+Drive only. Do NOT stack every report as cards down the page;
+when a new month lands, refresh the two cards in place.
+
+The one linked report DOCUMENT: the spot check Doc in Drive
+(SD-Management > Sales > Spot Checks), linked from inside the
+Monthly Insights card above; Drive permissions are the lock.
+This does NOT reopen linking the Drive folder itself, which
+stays off (rule above).
 
 ## Banners guide live (Nov 9)
 banners.html (+ ES twin) is the first full product guide: Weld the

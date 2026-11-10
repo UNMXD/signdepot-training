@@ -1,0 +1,43 @@
+Soy el Gerente de Producción de Sign Depot USA. Aprende CoreBridge EVO para que puedas ayudarme a correr la producción en él. Enfócate en el trabajo del día a día, no en toda la administración.
+
+Importante: mi cuenta de EVO NO es una cuenta de acceso completo como la del dueño. Tengo un rol de Gerente de Producción con permisos limitados. Trabaja solo dentro de lo que mi cuenta realmente puede ver y abrir. Si un menú, botón o ajuste no me aparece, no trates de saltarlo, no pidas el acceso del dueño y no uses la cuenta de nadie más. Aprende esa parte solo de la base de conocimiento y ponla en una lista aparte llamada "Necesita a Bobby", con el cambio exacto listo para que él lo apruebe o lo haga.
+
+Tu fuente principal es la base de conocimiento oficial de EVO:
+https://supportdesk.corebridge.net/support/solutions/19000106524
+
+Esa es la solución "New CoreBridge EVO Interface". El mismo sitio también tiene artículos del viejo CoreBridge V3. No uses un artículo de V3 para EVO. Confirma primero que cada artículo sea de EVO. Usa también la capacitación del propio EVO: dentro de EVO, toca mi nombre, luego My Profile, luego Onboarding, y sigue la ruta de Training.
+
+Lee también primero la Tarjeta Rápida de Entrada de Órdenes adjunta y síguela en cada estimado y cada orden que captures. El Estándar Completo trae el detalle detrás de ella. Si la Tarjeta Rápida y la base de conocimiento alguna vez no coinciden, detente y pregunta a Bobby.
+
+Aprende estas áreas, en este orden:
+
+1. Órdenes y estimados
+Cómo crear un estimado y una orden, agregar líneas, escoger el producto y los componentes correctos, capturar tamaños y cantidades, y revisar un precio antes de guardar.
+Nuestras reglas de la casa: los nombres de línea son cortos y claros, las instrucciones van en las pestañas de Notas de la línea (Design Notes para arte y pruebas, Production Notes para cómo producirlo), en oraciones completas, nunca en el Chat de la orden. Un trabajo urgente lleva la fecha límite escrita en Production Notes y el botón Rush tocado en la línea.
+
+2. Los tableros
+Cómo funcionan el tablero de Diseño y el tablero de Producción, qué significa cada estatus y subestatus, cómo asignar trabajo, mover un trabajo hacia adelante, revisar pruebas y aprobaciones, y marcar trabajos como construidos y listos. Así corremos el día, así que apréndelo bien, hasta poder enseñarlo.
+
+3. El calendario
+Cómo leer y ajustar el calendario de Instalación, agregar y mover instalaciones y visitas de sitio, usar horas reales de inicio en vez de All day, y usar la categoría correcta (la categoría define el color). Nuestro calendario de Instalación en EVO se sincroniza con nuestro Google Calendar compartido.
+
+4. Productos
+Cómo se construyen los productos en EVO, cómo se conectan materiales, mano de obra y máquinas a un producto, y cómo agregar un producto nuevo sencillo. Antes de crear algo, revisa si ya existe. Conecta los materiales a nivel de categoría del producto. Nunca pruebes un producto nuevo en una orden real de un cliente, pruébalo primero en un estimado de prueba y revisa el precio y la lista de materiales.
+
+5. Materiales y solo costos de materiales
+Cómo agregar un material y cómo actualizar el COSTO de un material. Esto es solo costo, no precio de venta. No cambies ningún precio de venta a menos que Bobby te lo diga.
+Reglas para materiales:
+- Nuestra fuente de costos es Grimco. Usa el precio de Grimco, y usa el precio de una sola hoja o la cantidad más baja, no un precio por volumen.
+- Los materiales rígidos y de hoja se cobran por pie cuadrado o por pulgada cuadrada, nunca por hoja y nunca por pieza.
+- Los nombres internos de vinil se ven así: Vinyl - Avery Vehicle Wrap Premium. El nombre que el cliente ve en los documentos no lleva marca: Vinyl - Vehicle Wrap Premium.
+- Pon el detalle en la descripción: marca y nombre completo del producto, dónde lo compramos, el SKU del proveedor si lo tenemos, y para qué se usa.
+- Si un costo está en blanco o en $0, puedes llenarlo desde Grimco o desde el sistema viejo. Si un costo ya existe, no lo sobrescribas sin revisar primero con Bobby.
+- Cuando cambies un costo, anota el costo anterior, el costo nuevo y de dónde salió el costo nuevo, y luego recarga la página para confirmar que se guardó.
+
+Límites:
+- Aprende primero en modo de solo lectura. No guardes, edites, borres ni envíes nada en EVO durante la pasada de aprendizaje.
+- Practica en un estimado de prueba, nunca en un trabajo real de un cliente.
+- No toques modificadores compartidos, plantillas de documentos, automatizaciones, roles de empleados ni ajustes financieros. Esos necesitan primero el OK de Bobby.
+- Cuando no estés seguro: revisa primero la base de conocimiento, luego pregunta a Cora (la asistente integrada de EVO) y luego pregúntame a mí. No adivines.
+
+Cuando termines, guarda notas organizadas por tema con el enlace de la base de conocimiento de cada uno, dame una hoja de referencia de una página para entrada de órdenes y los tableros, y divide todo en dos listas: "Esto sí puedo hacerlo yo en EVO" y "Necesita a Bobby por los permisos." No cambies nada todavía.

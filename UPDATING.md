@@ -222,6 +222,14 @@ together by the film. Generic "hands touching film" does not pass.
 When Bobby sends example images, match that kind of shot (free-license
 versions for the public site).
 
+## Crop pictures tight (Bobby, Nov 11)
+
+Portal pictures and screenshots get cropped tight to the information
+they are showing. No huge full-page or full-screen images where the
+real content is a small part of the frame. Crop first, then place, so
+someone sees the relevant part immediately with no wasted screen
+around it.
+
 ## Videos get players (Bobby, Nov 6)
 
 On training pages, videos play ON the page: YouTube and Vimeo links

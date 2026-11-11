@@ -138,7 +138,7 @@ Slow pace, about 2 seconds per screen. Full detail lives in
   update the page's source/track paths. Browsers cache video files hard at
   the same URL, so a same-name swap leaves viewers watching the old video
   (bit us Nov 10: the Handoffs redo was live in the repo while Bobby's
-  browser kept playing the cached Asana version).
+  browser kept playing the cached old version).
 - PUBLISH ORDER for new video files: upload the video/caption files FIRST
   and the page that points at them LAST, in the same batch. If a live page
   ever points at a video address that is not up yet, browsers cache the
@@ -168,10 +168,11 @@ Slow pace, about 2 seconds per screen. Full detail lives in
   Management = GM / Sales Manager / Production Manager role sections,
   Scheduling Installs, Inventory; Design includes Prepare a Job for
   Print and the File System section; Printing includes Finding Print
-  Files; Production and Installation carry their SD-Orders pieces.
-- Source docs behind those sections: SD File System v1.1 and the
-  SD-Orders (Asana) Manual v1.0, both Bobby's. SD-Orders is the Asana
-  project that tracks jobs (status moves the task — never drag).
+  Files; Production and Installation carry their board pieces.
+- Source doc behind those sections: SD File System v1.1, Bobby's.
+  (A second manual described a system the shop does not use; Bobby
+  ordered every trace of it removed from the Portal on Nov 11, 2026.
+  The Portal standard is EVO-first: jobs and job talk live in EVO.)
 - The cursor-trail trial ended Nov 6: trail.js removed at Bobby's call.
 
 ## The name (Bobby, Nov 6)
@@ -240,7 +241,7 @@ Equipment incl. Bucket Truck and Banner Welder). installation.html and
 es/installation.html are "we moved" stubs pointing to it. The portal
 has FIVE departments: Management, Sales, Design, Printing,
 Production & Install. This merges the site sections only — people's
-jobs and the SD-Orders stages (Production, Install) stay as they are.
+jobs and the job stages (Production, Install) stay as they are.
 
 ## Drive stays OFF Management (Bobby, reaffirmed Nov 8)
 

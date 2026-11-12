@@ -44,3 +44,33 @@
   allBoxes.forEach(function (b, i) { b.checked = !!saved[i]; b.addEventListener('change', update); });
   update();
 })();
+
+// Tap-to-expand for lesson screenshots (.stepimg): adds a small note under
+// each picture and opens it full-screen on tap, so small screenshots stay
+// readable on phones. Runs on every page that loads steps.js.
+(function () {
+  var es = (document.documentElement.lang || 'en').indexOf('es') === 0;
+  var imgs = document.querySelectorAll('img.stepimg');
+  if (!imgs.length) return;
+  var overlay = document.createElement('div');
+  overlay.className = 'lightbox';
+  overlay.hidden = true;
+  var big = document.createElement('img');
+  overlay.appendChild(big);
+  document.body.appendChild(overlay);
+  function close() { overlay.hidden = true; big.removeAttribute('src'); }
+  overlay.addEventListener('click', close);
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+  imgs.forEach(function (img) {
+    var note = document.createElement('p');
+    note.className = 'imgnote';
+    note.textContent = es ? 'Toca la imagen para verla más grande.' : 'Tap the picture to see it bigger.';
+    img.insertAdjacentElement('afterend', note);
+    img.style.cursor = 'zoom-in';
+    img.addEventListener('click', function () {
+      big.src = img.currentSrc || img.src;
+      big.alt = img.alt || '';
+      overlay.hidden = false;
+    });
+  });
+})();

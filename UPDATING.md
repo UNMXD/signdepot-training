@@ -222,6 +222,18 @@ together by the film. Generic "hands touching film" does not pass.
 When Bobby sends example images, match that kind of shot (free-license
 versions for the public site).
 
+## Guides are progressions (Bobby, Nov 12)
+
+A guide does not open as one long page. It opens on a hub page that
+lists its numbered chunks (1, 2, 3...), with chunk 1 highlighted as
+the start. Each chunk is its own page: small, one topic, with its
+video and steps. At the bottom of each chunk page, a big Next button
+names the next chunk and takes you to its page. The last chunk ends
+with a Done button back to the hub. First used on the Sales Quick
+Start Guide (hub sales-quick-start.html, chunks
+quick-start-*.html). Build new guides this way, and split an older
+long guide into chunks when it gets reworked.
+
 ## Crop pictures tight (Bobby, Nov 11)
 
 Portal pictures and screenshots get cropped tight to the information

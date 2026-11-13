@@ -80,6 +80,9 @@ p.lede { font-size: 18px; color: var(--grey); max-width: 720px; }
 .warn { background: #fdeeee; border: 2px solid #b02a2a; }
 .spec { background: #fff8d6; border: 2px solid #8a6d00; font-weight: 600; }
 
+/* In-step example box: shows exactly how to type it */
+.examplebox { background: #eef7e6; border: 2px solid #4a7c2f; border-radius: 10px; padding: 12px 16px; margin-top: 10px; font-size: 19px; font-weight: 700; line-height: 1.5; }
+
 /* Video list */
 ol.playlist { list-style: none; counter-reset: vid; padding: 0; margin: 0; }
 ol.playlist > li {

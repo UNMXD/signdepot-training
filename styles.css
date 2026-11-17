@@ -261,12 +261,15 @@ a.chip:hover { border-color: var(--blue); color: var(--blue); }
 .video { position: relative; padding-top: 56.25%; border-radius: 12px; overflow: hidden; background: #000; margin: 10px 0 6px; }
 .video iframe, .video video { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 
-/* Management News: newspaper front page */
-.newsdate { font-size: 16px; color: #555; margin: -8px 0 16px; }
-.newsgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 30px; }
-.newsitem { border-top: 3px solid #0A1D93; padding: 14px 0 18px; }
-.newsitem h3 { font-size: 24px; line-height: 1.2; margin: 0 0 6px; }
-.newsitem p { margin: 0; font-size: 17px; }
-.newsitem.lead { grid-column: 1 / -1; border-top: 7px solid #F45501; }
-.newsitem.lead h3 { font-size: 34px; }
-@media (max-width: 700px) { .newsgrid { grid-template-columns: 1fr; } .newsitem.lead h3 { font-size: 28px; } }
+/* Management News: newspaper front page, black and white */
+.newspaper { background: #ffffff; border: 3px solid #111111; color: #111111; padding: 24px 28px 12px; margin: 20px 0 28px; }
+.masthead { text-align: center; border-bottom: 5px double #111111; padding-bottom: 12px; margin-bottom: 4px; }
+.papername { font-family: Georgia, 'Times New Roman', serif; font-size: 46px; font-weight: 900; letter-spacing: 1px; text-transform: uppercase; line-height: 1.05; margin: 0; }
+.newsdate { font-family: Georgia, 'Times New Roman', serif; font-size: 15px; letter-spacing: 1.5px; text-transform: uppercase; color: #333333; margin: 8px 0 0; }
+.newsgrid { columns: 2; column-gap: 34px; column-rule: 1px solid #888888; }
+.newsitem { break-inside: avoid; border-top: 2px solid #111111; padding: 14px 0 16px; }
+.newsitem h3 { font-family: Georgia, 'Times New Roman', serif; font-size: 25px; font-weight: 900; line-height: 1.2; margin: 0 0 6px; }
+.newsitem p { font-family: Georgia, 'Times New Roman', serif; margin: 0; font-size: 17px; line-height: 1.45; color: #222222; }
+.newsitem.lead { column-span: all; border-top: none; }
+.newsitem.lead h3 { font-size: 40px; }
+@media (max-width: 700px) { .newsgrid { columns: 1; } .papername { font-size: 31px; } .newsitem.lead h3 { font-size: 29px; } .newspaper { padding: 18px 16px 8px; } }
